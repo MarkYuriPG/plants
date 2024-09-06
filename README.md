@@ -15,7 +15,7 @@
    ![image](https://github.com/user-attachments/assets/7cf31b8a-3798-4f84-b5ec-f997de25660d)<br/><br/>
 
 7. Run this command in CLI to test if ultralytics yolov8 is successfully installed. (still inside the venv of the project)<br/>
-   ```yolo train data=coco8.yaml model=yolov8n.pt epochs=10 lr0=0.01```<br/>
+   ```yolo predict model=yolov8n.pt source='https://ultralytics.com/images/bus.jpg'```<br/>
    ![image](https://github.com/user-attachments/assets/1624c303-33eb-404e-9bda-d6e826415662)<br/>
    Should be able to get this output.
    ![image](https://github.com/user-attachments/assets/e2e31856-4016-4f0b-8763-e20e8b4e5f18)<br/><br/>
